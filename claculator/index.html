@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/claculator/style.css"/>
+</head>
+<body style="text-align: center;">
+    <div class="Calculator">
+        <h1>Calculator</h1>
+        <input type="text" placeholder="number1" id="dispaly"/>
+        <div class="button">
+            <button onclick="cleardisplay()" class="btm" >C</button>
+
+            <div class="button-wrap">
+                <button onclick="displayvalue(7)" class="btm">7</button>
+                <button onclick="displayvalue(8)" class="btm">8</button>
+                <button onclick="displayvalue(9)" class="btm">9</button>
+                <button onclick="displayvalue('/')" class="btm">/</button>
+
+            </div>
+            <div class="button-wrap">
+                <button onclick="displayvalue(4)" class="btm">4</button>
+                <button onclick="displayvalue(5)" class="btm">5</button>
+                <button onclick="displayvalue(6)" class="btm">6</button>
+                <button onclick="displayvalue('*')" class="btm">*</button>
+
+            </div>
+            <div class="button-wrap">
+                <button onclick="displayvalue(1)" class="btm">1</button>
+                <button onclick="displayvalue(2)" class="btm">2</button>
+                <button onclick="displayvalue(3)" class="btm">3</button>
+                <button onclick="displayvalue('-')" class="btm">-</button>
+
+            </div>
+            <div class="button-wrap">
+                <button onclick="displayvalue('.')" class="btm">.</button>
+                <button onclick="displayvalue(0)" class="btm">0</button>
+                <button onclick="displayvalue('+')" class="btm">+</button>
+                <button onclick="calculate('=')" class="btm">=</button>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="/claculator/calscript.js"></script>
+</html>
